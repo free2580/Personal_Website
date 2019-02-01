@@ -6,19 +6,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div id="container">
+        <div className='ui container' id="container">
           <div>
             <div id="header">
-              <h1 style={{ color: 'white'}}>Frida Casas</h1>
+              <h1 class="ui header" style={{ color: 'white'}}>Frida Casas</h1>
             </div>
             <div>
-              <a style={{ color: 'white'}} href='https://github.com/free2580' target="_blank">Github  </a>|
-              <a style={{ color: 'white'}} href='https://medium.com/@fridakahsas' target="_blank"> Medium  </a>|
-              <a style={{ color: 'white'}} href='https://docs.google.com/presentation/d/e/2PACX-1vSfK_UMLxC6aSAwKG9UO1GSsQtWUBeflzc_4M9rXArLV_d4cMHnFIxeqb15LMrHTe5acvc17mEGDPuK/pub?start=false&loop=false&delayms=3000' target="_blank"> Resume</a>
+              <a style={{ color: 'white'}} href='https://github.com/free2580' target="_blank"  rel="noopener noreferrer">Github  </a>|
+              <a style={{ color: 'white'}} href='https://medium.com/@fridakahsas' target="_blank"  rel="noopener noreferrer"> Medium  </a>|
+              <a style={{ color: 'white'}} href='https://docs.google.com/presentation/d/e/2PACX-1vSfK_UMLxC6aSAwKG9UO1GSsQtWUBeflzc_4M9rXArLV_d4cMHnFIxeqb15LMrHTe5acvc17mEGDPuK/pub?start=false&loop=false&delayms=3000' target="_blank" rel="noopener noreferrer"> Resume</a>
 
             </div>
-            <img id="photo" src={photo} />
-            <div id="bio">
+            <img className="ui medium circular image" id="photo" src={photo} alt="not-found"/>
+            <div class="ui raised segment" id="bio">
               <p style={{ color: 'white'}}>Hello. My name is Frida Casas. I am a passionate and driven full stack web developer
               currently residing in New York City.</p><p style={{ color: 'white'}}>I have a little less than a year's worth of experience
                 on Ruby on Rails, Javascript, React, Redux, HTML and CSS. I come from a a variety of backgrounds including physics,
